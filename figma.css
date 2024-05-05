@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .table {
+    display: flex;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell1 {
+    color: #b0afaf;
+    font-size: small;
+    font-family:sans-serif;
+    padding: 10px;
+    padding-bottom: 0%;
+    background-color: #3a3939;
+  }
+  .cell2 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f90404;
+    writing-mode:vertical-rl;
+    text-orientation:mixed;
+    transform: rotate(180deg);
+    flex-direction:column;
+    border: 1px solid #f90404;
+    padding-left: 5px;
+    padding-inline-start: 20%;
+  } 
+  .button {
+    size: 5px;
+    background-color: #fdfdfd; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .cell2 a{
+    color: #f9f9f9;
+    text-decoration: none;
+  }
+  .cell1 a{
+    color: #a9a8a8;
+    text-decoration: none;
+  }
+  .button a{
+    color: #070707;
+    text-decoration: none;
+  }
